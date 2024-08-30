@@ -186,7 +186,7 @@ pool
           }
         } else {
           finalRunner("mt5", false, false);
-          mainMt4();
+          // mainMt4();
         }
       });
       cron.schedule("*/15 * * * *", () => {
@@ -198,7 +198,7 @@ pool
           }
         } else {
           finalRunner("mt5", true, false);
-          mainMt4("reset");
+          // mainMt4("reset");
         }
       });
     });
