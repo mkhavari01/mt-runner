@@ -119,7 +119,7 @@ export async function finalRunner(platform, resetMt5, resetMt4) {
         AND "account"."hasCredentialsProblem" = false 
         AND "challenge_result"."dailyDrawdown"->>'isPassed' = 'true'
         AND "challenge_result"."maxDrawdown"->>'isPassed' = 'true'
-        AND "account"."platform" = 'mt5' AND "account"."server" = 'CWGMarketsSVG-Demo' order by "account"."createdAt" desc;    
+        AND "account"."platform" = 'mt5' order by "account"."createdAt" desc;    
         `);
       users = allUsers.rows;
     } catch (error) {
