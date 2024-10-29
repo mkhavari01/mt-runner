@@ -82,6 +82,23 @@ const dockerConfig = {
   runnerPlatform: "mt5",
 };
 
+const propNovinConfig = {
+  type: "runner",
+  db: {
+    host: "fitz-roy.liara.cloud",
+    port: 32789,
+    user: "root",
+    password: "OhUzZBoJfJpzcQcjzYIjjoDq",
+    database: "prop_novin",
+  },
+  BatchSizeMt4: 7,
+  BatchSizeMt5: 1,
+  mt4Urls: ["https://propnovin-manager.liara.run"],
+  mt5Urls: ["https://propnovin-manager.liara.run"],
+  socketUrl: "https://propnovin-manager.liara.run",
+  runnerPlatform: "mt5",
+};
+
 const developConfig = {
   type: "runner",
   db: {
@@ -89,7 +106,7 @@ const developConfig = {
     port: 32789,
     user: "root",
     password: "OhUzZBoJfJpzcQcjzYIjjoDq",
-    database: "tpf_prod",
+    database: "prop_novin",
   },
   BatchSizeMt4: 7,
   BatchSizeMt5: 1,
@@ -99,4 +116,4 @@ const developConfig = {
   runnerPlatform: "mt5",
 };
 
-export const productionConfig = developConfig;
+export const productionConfig = propNovinConfig;

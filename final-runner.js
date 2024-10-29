@@ -37,8 +37,8 @@ function settingIp(user, platform) {
     user["server"] = "51.254.68.0";
     user["port"] = 443;
   }else if (user.server === "ForexTimeFXTM-Demo01") {
-    user["server"] = "220.158.132.101";
-    user["port"] = 1966;
+    user["server"] = "dc2.mt5-demo01.mydcnet.com";
+    user["port"] = 443;
   }
   else if (user.server === "OmegaFinex-Real") {
     user["server"] = "162.19.84.69";
