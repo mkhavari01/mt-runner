@@ -36,6 +36,13 @@ function settingIp(user, platform) {
   } else if (user.server === "ICMarketsSC-Demo01") {
     user["server"] = "51.254.68.0";
     user["port"] = 443;
+  }else if (user.server === "ForexTimeFXTM-Demo01") {
+    user["server"] = "220.158.132.101";
+    user["port"] = 1966;
+  }
+  else if (user.server === "OmegaFinex-Real") {
+    user["server"] = "162.19.84.69";
+    user["port"] = 443;
   }
   if (platform === "mt4") {
     user["terminal"] = 0;

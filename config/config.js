@@ -42,9 +42,9 @@ const tpfProdConfig = {
   },
   BatchSizeMt4: 7,
   BatchSizeMt5: 1,
-  mt4Urls: ["https://tpf-manager2.liara.run"],
-  mt5Urls: ["https://tpf-manager2.liara.run"],
-  socketUrl: "https://tpf-manager2.liara.run",
+  mt4Urls: ["https://tpf-manager.liara.run"],
+  mt5Urls: ["https://tpf-manager.liara.run"],
+  socketUrl: "https://tpf-manager.liara.run",
   runnerPlatform: "mt5",
 };
 
